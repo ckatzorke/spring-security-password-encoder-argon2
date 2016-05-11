@@ -1,0 +1,32 @@
+# eclipse
+.classpath
+.project
+.settings
+# sts
+.springBeans
+# Mac
+.DS_Store
+# Maven
+target/
+release.properties
+*.versionsBackup
+*.releaseBackup
+#gradle
+.gradle/
+# Idea
+*.iml
+.idea/
+# npm
+node_modules/
+npm-debug.log
+# bower
+bower_components/
+# other
+*.swp
+*.bak
+.tmp
+.sass-cache
+/dist/
+#maven-grunt
+node/
+target-grunt/
