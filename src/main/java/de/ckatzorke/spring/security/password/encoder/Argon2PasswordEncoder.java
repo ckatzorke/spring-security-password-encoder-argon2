@@ -57,7 +57,7 @@ public class Argon2PasswordEncoder implements PasswordEncoder {
 	 * .lang.CharSequence, java.lang.String)
 	 */
 	public boolean matches(CharSequence rawPassword, String encodedPassword) {
-		return ARGON2.verify(rawPassword.toString(), encodedPassword);
+		return ARGON2.verify(encodedPassword, rawPassword.toString());
 	}
 
 }
